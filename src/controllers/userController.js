@@ -43,7 +43,7 @@ let deleteUser = async (req, res) => {
         else
             return res.status(400).json({
                 message: 'Id does not exist',
-                errCode: 0
+                errCode: 2
             })
     }
     else
